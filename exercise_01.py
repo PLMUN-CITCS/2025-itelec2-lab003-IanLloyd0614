@@ -5,25 +5,25 @@
 
 def main():
 
-    a = 10
-    b = 5
-    c = 3
-    result1 = a + b * c
-    print("Result of a + b * c:", result1)
-    result2 = (a + b) * c
-    print("Result of (a + b) * c:", result2)
-    result3 = a - b
-    print("Result of a - b:", result3)  s
-    result4 = a / b
-    result5 = a // b
-    print("Result of a / b:", result4)
-    print("Result of a // b (floor division):", result5)
-    result6 = a % b
-    result7 = a ** c
-    print("Result of a % b (modulus):", result6)
-    print("Result of a ** c (exponentiation):", result7)
-    result8 = (a + b - c) * (a / b)
-    print("Result of (a + b - c) * (a / b):", result8)
+    count = 10                   # 'count' is assigned 10 (integer literal)
+    Count = 15                   # 'Count' (different from 'count') is assigned 15
+    decimal_value = 3.14         # 'decimal_value' is assigned 3.14 (float literal)
+    message = "Hello, Python!"   # String literal
+    is_active = True             # Boolean literal
+    result = None                # None literal represents absence of value
+    total_count = 20             # Another integer literal assignment
+    print("Integer (count):", count)
+    print("Integer (Count):", Count)
+    print("Integer (total_count):", total_count)
+    print("Decimal:", decimal_value)
+    print("Text:", message)
+    print("Boolean:", is_active)
+    print("None Value:", result)
+
+    # Example of inline arithmetic with formatting using an f-string:
+    num1 = 5
+    num2 = 3
+    print(f"Sum: {num1 + num2:.2f}")  # The result (8.00) is formatted to 2 decimal places
 
 if __name__ == "__main__":
     main()
