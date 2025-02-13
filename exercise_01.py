@@ -1,6 +1,7 @@
 # Ian Lloyd Santiago Angeles
 # ITELEC2
-# EXERCISE_03
+# Laboratory #03 – Guided Coding Exercise:
+# Variables, Literals, and Case-Sensitivity in Python (with Naming Conventions)
 
 def main():
 
